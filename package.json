@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-db": "mkdir -p database && [ ! -f database/db.js ] && printf \"const sqlite3 = require('sqlite3').verbose();\\nconst db = new sqlite3.Database('./database.sqlite');\\nmodule.exports = db;\\n\" > database/db.js"
   },
   "keywords": [],
   "author": "",

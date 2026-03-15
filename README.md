@@ -2,6 +2,7 @@
 
 ```bash
 npm install
+npm run setup-db
 node seeders/userSeeder.js
 node server.js
 ```
