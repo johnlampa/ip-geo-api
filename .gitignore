@@ -1,3 +1,11 @@
-node_modules
-*.db
-database/
+# Dependencies
+node_modules/
+
+# Database
+database/database.db
+
+# Environment variables (for when you add them later)
+.env
+
+# OS
+.DS_Store
