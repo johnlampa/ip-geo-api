@@ -9,4 +9,5 @@ node server.js
 ## Seeded Login Credentials
 
 Email: email@gmail.com
+
 Password: password123
